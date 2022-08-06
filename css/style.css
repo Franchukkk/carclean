@@ -626,7 +626,7 @@ table {
 }
 
 footer {
-    height: 700px;
+    height: 7.5%;
     background-color: #252525;
 }
 
@@ -841,6 +841,7 @@ footer hr {
     font-weight: 400;
     font-family: "Poppins";
     text-align: center;
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width:1780px) {
@@ -850,10 +851,8 @@ footer hr {
         padding-left: 80px;
     }
 
-    .email,
-    .location,
-    .phone {
-        display: block;
+    .none {
+        display: none;
     }
 
 
@@ -1171,14 +1170,16 @@ footer hr {
     }
 
     .main2 {
-        height: 2650px;
+        height: 1100px;
     }
 
     .tables_main2 {
-        display: block;
+        width: 500px;
+        display: flex;
         padding-bottom: 100px;
-        text-align: center;
-        margin-left: 0;
+        overflow: scroll;
+        margin: 0 auto;
+        height: 600px;
 
     }
 
@@ -1230,6 +1231,10 @@ footer hr {
         font-size: 13px;
         padding: 25px 74px 27px 74px;
     }
+
+    .main2 hr {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -1275,7 +1280,7 @@ footer hr {
     }
 
     .main2 {
-        height: 2500px;
+        height: 1000px;
     }
 
     h1 {
@@ -1585,6 +1590,10 @@ footer hr {
         justify-content: center;
     }
 
+    .tables_main2 {
+        width: 400px;
+    }
+
     .main4 p {
         width: 500px;
     }
@@ -1703,6 +1712,14 @@ footer hr {
         display: none;
     }
 
+    .after_logo {
+        display: none;
+    }
+
+    .tables_main2 {
+        width: 320px;
+    }
+
     .phone p>a:last-child,
     .email p>a:last-child,
     .location p>a:last-child {
@@ -1749,7 +1766,7 @@ footer hr {
     }
 
     .main2 {
-        height: 2150px;
+        height: 1000px;
     }
 
     .main4 h3 {
@@ -1774,14 +1791,18 @@ footer hr {
         width: 15px;
     }
 
+    .tables_main2 {
+        height: 500px;
+    }
+
     .logo01 {
         width: 42px;
         height: 42px;
     }
 
-    .logo01 h4{
+    .logo01 h4 {
         font-size: 14px;
-        padding: 10px 18px 19px 15px;
+        padding: 7px 18px 19px 14px;
     }
 
     .home a {
@@ -1891,7 +1912,7 @@ footer hr {
     }
 
     .main2 {
-        height: 2000px;
+        height: 900px;
     }
 
     table {
@@ -1906,6 +1927,10 @@ footer hr {
 @media screen and (max-width:435px) {
     .after_logo {
         padding-left: 40px;
+    }
+
+    .tables_main2 {
+        width: 280px;
     }
 
     .zagolovok_block1 p {
@@ -1955,6 +1980,10 @@ footer hr {
     .logo img {
         width: 70px;
         height: 40px;
+    }
+
+    .main2 {
+        height: 800px;
     }
 
     .logo p {
@@ -2047,8 +2076,6 @@ footer hr {
     .location p>a:last-child {
         display: inline;
     }
-
-
 }
 
 @media screen and (max-width:360px) {
