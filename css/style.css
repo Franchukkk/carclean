@@ -818,6 +818,14 @@ footer .buttons_a_footer a {
     padding-right: 4px;
 }
 
+footer .buttons_a_footer a>img {
+    transition: 0.3s;
+}
+
+footer .buttons_a_footer a>img:hover {
+    transform: scale(1.1);
+}
+
 .buttons_a_footer {
     display: flex;
     justify-content: center;
@@ -1157,16 +1165,29 @@ footer hr {
     .table2,
     .table3 {
         display: block;
-        margin-bottom: 60px;
     }
 
     .table2 table {
         margin: auto;
     }
 
+    .table1,
+    .table3 {
+        margin-top: 120px;
+    }
+
     .table table,
     .table3 table {
         margin: auto;
+    }
+
+    th {
+        padding-top: 0;
+    }
+
+    .table3 {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .main2 {
@@ -1180,7 +1201,7 @@ footer hr {
         overflow: scroll;
         margin: 0 auto;
         height: 600px;
-
+        justify-content: start;
     }
 
     .tables_main2 img {
@@ -1382,6 +1403,37 @@ footer hr {
     .footer_fourthpart {
         padding-left: 0px;
     }
+
+    
+    .footer_media1,
+    .footer_media2 {
+        display: block;
+    }
+
+    footer {
+        height: 650px;
+    }
+
+    .footer_thirdpart {
+        padding-left: 0;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    .footer_fourthpart {
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    .footer_firstpart,
+    .footer_secondpart {
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    .footer_firstpart {
+        padding-right: 40px;
+    }
 }
 
 @media screen and (max-width:1000px) {
@@ -1469,36 +1521,6 @@ footer hr {
 @media screen and (max-width:880px) {
     .content {
         padding-left: 80px;
-    }
-
-    .footer_media1,
-    .footer_media2 {
-        display: block;
-    }
-
-    footer {
-        height: 800px;
-    }
-
-    .footer_thirdpart {
-        padding-left: 0;
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .footer_fourthpart {
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .footer_firstpart,
-    .footer_secondpart {
-        padding-top: 80px;
-        margin: 0 auto;
-    }
-
-    .footer_firstpart {
-        padding-right: 40px;
     }
 }
 
@@ -1788,7 +1810,7 @@ footer hr {
     }
 
     .buttons_a_footer a>img {
-        width: 15px;
+        width: 24px;
     }
 
     .tables_main2 {
@@ -1847,7 +1869,7 @@ footer hr {
     }
 
     .enter_mail a {
-        padding: 12px 10px 12px 11px;
+        padding: 12px 60px 12px 11px;
     }
 
     .footer_fourthpart .button_footer a {
@@ -2133,6 +2155,10 @@ footer hr {
 
     .buttons1 {
         width: 280px;
+    }
+
+    footer{
+        height: 650px;
     }
 }
 
