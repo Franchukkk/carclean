@@ -449,19 +449,20 @@ table {
 
 .block1:hover h5,
 .block1:hover p,
-.block1:hover h4,
-.logo01:hover {
+.block1:hover h4 {
     color: #fff;
 }
 
-
+.block1:hover .logo01 {
+    border: 2px solid #fff;
+}
 
 .logo01 {
     width: 52px;
     height: 52px;
-    border-radius: 26px;
+    border-radius: 50%;
     background-color: rgba(0, 0, 0, 0%);
-    border: 1.87px solid #0c426e;
+    border: 2px solid #0c426e;
     margin-left: 45px;
     margin-top: 45px;
 }
@@ -1404,7 +1405,7 @@ footer hr {
         padding-left: 0px;
     }
 
-    
+
     .footer_media1,
     .footer_media2 {
         display: block;
@@ -2157,7 +2158,7 @@ footer hr {
         width: 280px;
     }
 
-    footer{
+    footer {
         height: 650px;
     }
 }
